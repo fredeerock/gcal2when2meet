@@ -10,60 +10,48 @@
     <div class="container">
       <div class="row">
         <div class="span6">
-          <h1>gcal2when2meet</h1><h2>I&apos;M SICK OF SWITCHING TABS TO LOOK AT MY GOOGLE CALENDAR WHEN I FILL OUT A WHEN2MEET AND YOU SHOULD BE TOO.</h2>
-<p>So here&apos;s a bookmarklet to import your Google Calendar events into a when2meet.
+          <h1>gcal2when2meet by Jonah Kagan (as updated by Patrick Hulin)</h1>
+          <h2>I&apos;M SICK OF SWITCHING TABS TO LOOK AT MY GOOGLE CALENDAR WHEN I FILL OUT A WHEN2MEET AND YOU SHOULD BE TOO.</h2>
+          <p>So here&apos;s a bookmarklet to import your Google Calendar events into a when2meet.
 
-</p>
-<h3>Instructions</h3>
-<p>To use, simply drag the link below to your bookmarks bar.
+          </p>
+          <h3>Instructions</h3>
+          <p>To use, simply drag the link below to your bookmarks bar.
 
-</p>
-<p><a class="btn btn-large btn-primary" name="gcal2when2meet"
-href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/kbowen99/gcal2when2meet@8e82824c762e6bb06d117d94730e92dfa128ddf1/gcal2when2meet.js';})();">
-gcal2when2meet
-</a>
+          </p>
+          <p><a class="btn btn-large btn-primary" name="gcal2when2meet"
+                                                  href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://cdn.jsdelivr.net/gh/phulin/gcal2when2meet@stable/gcal2when2meet.js';})();">
+            gcal2when2meet
+          </a>
 
-</p>
-<p>Then go to any when2meet, log in to the when2meet with your name, and then click the bookmark. A popup message will ask you to authorize access to your Google Calendar. (You may need to turn off your popup blocker.)
+          </p>
+          <p>Then go to any when2meet, log in to the when2meet with your name, and then click the bookmark. A popup message will ask you to authorize access to your Google Calendar. <b>(You may need to turn off your popup blocker.)</b>
 
-</p>
-<p>Any calendars that are hidden on your Google Calendar won&apos;t be imported.
+          </p>
+          <p>Any calendars that are hidden on your Google Calendar won&apos;t be imported.
 
-</p>
-<p>If you don&apos;t like dragging, you can make a browser bookmark with the following code as the url:
+          </p>
+          <p>If you don&apos;t like dragging, you can make a browser bookmark with the following code as the url:
 
-</p>
-<pre><code>javascript:(<span class="keyword">function</span>(){document.body.appendChild(document.createElement(
-<span class="string">'script'</span>)).src=<span class="string">'https://cdn.jsdelivr.net/gh/kbowen99/gcal2when2meet@bb2e5b5bd7da4bdc6268a3ca56493991b3045da9/gcal2when2meet.js'</span>;})();</code></pre>
-<h3>Plans for the Future</h3>
-<ul>
-<li>Support when2meets that have days of the week instead of specific dates</li>
-<li>Ask which calendars you want to import</li>
-<li>Support events that go off the edge of the time frame/wrap around</li>
-</ul>
-<h3>Feedback</h3>
-<p>Please let me know if you have any issues or feature requests on the <a href="https://github.com/jonahkagan/gcal2when2meet/issues">issues page</a>.
+          </p>
+          <pre><code>javascript:(<span class="keyword">function</span>(){document.body.appendChild(document.createElement(
+<span class="string">'script'</span>)).src=<span class="string">'https://cdn.jsdelivr.net/gh/phulin/gcal2when2meet@stable/gcal2when2meet.js'</span>;})();</code></pre>
+          <h3>Plans for the Future</h3>
+          <ul>
+            <li>Support when2meets that have days of the week instead of specific dates</li>
+            <li>Ask which calendars you want to import</li>
+            <li>Support events that go off the edge of the time frame/wrap around</li>
+          </ul>
+          <h3>Feedback</h3>
+          <p>Please let me know if you have any issues or feature requests on the <a href="https://github.com/jonahkagan/gcal2when2meet/issues">issues page</a>.
 
-</p>
-<h3>About</h3>
-<p>Made by <a href="http://jonahkagan.me">Jonah Kagan</a>. Source is open on <a href="https://github.com/jonahkagan/gcal2when2meet">Github</a>.
-</p>
+          </p>
+          <h3>About</h3>
+          <p>Made by <a href="http://jonahkagan.me">Jonah Kagan</a>; updated by Ken Bowen and Patrick Hulin. Source is open on <a href="https://github.com/jonahkagan/gcal2when2meet">Github</a>.
+          </p>
 
         </div>
       </div>
-    </div>
-    <div>
-      <script type="text/javascript">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-38259562-1']);
-        _gaq.push(['_trackPageview']);
-        
-        (function() {
-          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-      </script>
     </div>
   </body>
 </html>
