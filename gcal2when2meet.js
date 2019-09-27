@@ -19,6 +19,7 @@ function load() {
 
 function go() {
   reqCalendarList().then(function (calendars) {
+    console.log("Calendars: " + calendars);
     calendars = calendars.filter(function (c) { return c.selected; });
     return Promise.all(calendars.map(reqEvents));
   }).then(function (events) {
