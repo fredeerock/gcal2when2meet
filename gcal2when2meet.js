@@ -5,7 +5,7 @@ document.body.appendChild(document.createElement('script')).src =
 
 // when2meet
 var CLIENT_ID = "1054975614201-suhimk4get59t2e0g1nifbf7c5rr4c1a.apps.googleusercontent.com";
-var API_KEY = "xLtk_1FV8N1GUGv977e5zony";
+var API_KEY = "AIzaSyAZol8wwNls_6dJK1V5wxsntmcjjJUcDds";
 var SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
 var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
 var calendars = [];
